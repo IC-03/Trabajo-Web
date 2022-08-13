@@ -1,9 +1,10 @@
 .cuerpo {
     margin: 0px auto;
+    margin-top: 100px;
     background-color: rgb(33, 33, 33);
     font-family: monospace;
     width: 600px;
-    height: 600px;
+    height: 400px;
     border-radius: 10px;
 }
 
@@ -43,7 +44,7 @@ h1{
 }
 
 .btn:hover{
-	box-shadow: 0px 0px 14px #000000;
+	box-shadow: 0px 0px 20px #000000;
 }
 
 .icon{

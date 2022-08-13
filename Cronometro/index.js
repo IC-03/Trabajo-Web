@@ -39,6 +39,7 @@ function stopp() {
 function resett() {
     document.getElementById("reloj").innerHTML="00:00:00"
     sec = 0; min = 0; hrs = 0; //resetear esto también para que no continue donde estaba
+    clearTimeout(t);
 }
 
 document.getElementById("Init").onclick = tempo;
