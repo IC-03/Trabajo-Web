@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="index.js"></script>
+    <script src="index.js" defer></script>
     <title>Lista</title>
 </head>
 <body>
     <div class="cuerpo">
         <div class="Entrada">
-            <label for="#EntradaUser"> Input </label> <br>
+            <label class="Entrada" for="#EntradaUser"> Ingrese alguna frase a la lista </label> <br>
             <input type="text" id="Entradauser">
         </div>
 
@@ -22,11 +22,7 @@
             <button id="delete" class="btn">Borrar</button> <!-- Debe borrar toda la lista -->
         </div>
         
-        <div class="Lista">
-            <ul id="lstinput">
-                <li class="items"></li>
-            </ul>
-        </div>
+            <ul id="lista"></ol>
     </div>
 </body>
 </html>
