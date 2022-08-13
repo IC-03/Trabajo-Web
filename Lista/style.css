@@ -61,22 +61,25 @@
     justify-content: center;
 }
 
-#lstinput{
-    /*list-style: none;  */
+#lista{
+    list-style: none;
     font-family: monospace;
 
 }
 
-.Listas{
+.format_list{
     margin: 0px auto;
     background-color:white;
     font-family: monospace;
     width: 500px;
     height: 200px;
     border-radius: 10px;
+    word-wrap: break-word;
+    overflow-y: scroll
 }
 
 li{
     font-family: monospace;
-    font-size: 12px;
+    font-size: 20px;
+    margin: 5px;
 }
