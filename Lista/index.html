@@ -4,22 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <script src="index.js"></script>
     <title>Lista</title>
 </head>
 <body>
-    <div class="Entrada">
-        <label for="#EntradaUser"> Input </label>
-        <input type="text" id="Entradauser">
-    </div>
-    <br>
-    <div class="Btn">
-        <button id="add">Agregar</button> <!-- Agrega lo del input -->
-        <button id="delete">Borrar</button> <!-- Debe borrar toda la lista -->
-    </div>
-    <div class="Lista">
-        <ul id="lstinput">
-        </ul>
+    <div class="cuerpo">
+        <div class="Entrada">
+            <label for="#EntradaUser"> Input </label> <br>
+            <input type="text" id="Entradauser">
+        </div>
+
+        <br>
+        
+        <div class="botones">
+            <button id="add" class="btn">Agregar</button> <!-- Agrega lo del input -->
+            <button id="delete" class="btn">Borrar</button> <!-- Debe borrar toda la lista -->
+        </div>
+        
+        <div class="Lista">
+            <ul id="lstinput">
+                <li class="items"></li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>

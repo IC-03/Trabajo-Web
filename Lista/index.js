@@ -1,10 +1,14 @@
-const lista = document.getElementById('lstinput');
 
-function add(){
-    let texto = document.getElementById("Entradauser");
-    var item = document.createElement('li');
-    item.appendChild(document.createTextNode(texto));
-    lista.appendChild(item);
+function agregar(){
+    let ent = document.getElementById("EntradaUser");
+
+
 }
 
-document.getElementById("add").onclick = add;
+function borrar(){
+    
+}
+
+
+document.getElementById('add').onclick = agregar;
+document.getElementById('delete').onclick = borrar;
