@@ -4,18 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="index.js"></script>
-    <title>Document</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Timer-Cronometro</title>
 </head>
 <body>
-    <h1>CRONOMETRO</h1>
-    <div class="Botones">
-        <button id="Init">Iniciar/Continuar</button>
-        <button id="stop">Detener</button>
-        <button id="Re">Reiniciar</button>
-    </div>
-    <div class="Cronometro">
-            
+    <div class="cuerpo"> <!-- Cuerpo del cronometro-->
+
+        <h1>CRONOMETRO</h1> <!-- titulo de la app -->
+
+        <div class="reloj">
+            00:00
+        </div>
+
+        <div class="Botones">
+            <button id="Init" class="btn" >Iniciar/Continuar</button>
+            <button id="stop" class="btn" >Detener</button>
+            <button id="Re" class="btn" >Reiniciar</button>
+        </div>
     </div>
 </body>
 </html>
